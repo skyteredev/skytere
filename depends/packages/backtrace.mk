@@ -1,6 +1,6 @@
 package=backtrace
 $(package)_version=rust-snapshot-2018-05-22
-$(package)_download_path=https://github.com/rust-lang-nursery/libbacktrace
+$(package)_download_path=https://github.com/rust-lang-nursery/libbacktrace/archive/
 $(package)_file_name=$($(package)_version).tar.gz
 $(package)_sha256_hash=8da6daa0a582c9bbd1f2933501168b4c43664700f604f43e922e85b99e5049bc
 
