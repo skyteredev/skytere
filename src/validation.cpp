@@ -1194,32 +1194,22 @@ CAmount GetBlockSubsidy(int nPrevBits, int nPrevHeight, const Consensus::Params&
     int tempHeight;              // number of blocks since last anchor
     if (nPrevHeight < 20) {
         nSubsidy = 4;
-    } else if ((nPrevHeight > 553531) && (nPrevHeight < 2105657)) {
-        tempHeight = nPrevHeight - 553532;
-        multiplier = tempHeight / owlings;
-        nSubsidy -= (multiplier * 10 + 10);
-    } else if ((nPrevHeight >= 2105657) && (nPrevHeight < 5273695)) {
-        tempHeight = nPrevHeight - 2105657;
-        multiplier = tempHeight / owlings;
-        nSubsidy -= (multiplier * 20 + 750);
-    } else if ((nPrevHeight >= 5273695) && (nPrevHeight < 7378633)) {
-        tempHeight = nPrevHeight - 5273695;
-        multiplier = tempHeight / owlings;
-        nSubsidy -= (multiplier * 10 + 3720);
-    } else if ((nPrevHeight >= 7378633) && (nPrevHeight < 8399209)) {
-        tempHeight = nPrevHeight - 7378633;
-        multiplier = tempHeight / owlings;
-        nSubsidy -= (multiplier * 5 + 4705);
-    } else if ((nPrevHeight >= 8399209) && (nPrevHeight < 14735285)) {
-        nSubsidy = 55;
-    } else if ((nPrevHeight >= 14735285) && (nPrevHeight < 15798385)) {
-        tempHeight = nPrevHeight - 14735285;
-        multiplier = tempHeight / owlings;
-        nSubsidy -= (multiplier + 4946);
-    } else if ((nPrevHeight >= 15798385) && (nPrevHeight < 25844304)) {
-        nSubsidy = 5;
-    } else if (nPrevHeight >= 25844304) {
-        nSubsidy = 0.001;
+    } else if ((nPrevHeight > 264722) && (nPrevHeight < 290000)) {
+        nSubsidy = 4000;
+    } else if ((nPrevHeight >= 290000) && (nPrevHeight < 490000)) {
+        nSubsidy = 3200;
+    } else if ((nPrevHeight >= 490000) && (nPrevHeight < 690000)) {
+        nSubsidy = 2560;
+    } else if ((nPrevHeight >= 690000) && (nPrevHeight < 990000)) {
+        nSubsidy = 2048;
+    } else if ((nPrevHeight >= 990000) && (nPrevHeight < 2000000)) {
+        nSubsidy = 1024;
+    } else if ((nPrevHeight >= 2000000) && (nPrevHeight < 4000000)) {
+        nSubsidy = 512;
+    } else if ((nPrevHeight >= 4000000) && (nPrevHeight < 8000000)) {
+        nSubsidy = 100;
+    } else if (nPrevHeight >= 8000000) {
+        nSubsidy = 1;
     }
     return nSubsidy * COIN;
 }
