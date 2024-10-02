@@ -18,15 +18,17 @@
 #include <key_io.h>
 
 CAmount FounderPayment::getFounderPaymentAmount(int blockHeight, CAmount blockReward) {
-	 if (blockHeight <= startBlock){
+	 if (blockHeight <= startBlock) { 
 		 return 0;
 	 }
+	if (blockHeight <= 264721){
 	 for(int i = 0; i < rewardStructures.size(); i++) {
 		 FounderRewardStructure rewardStructure = rewardStructures[i];
 		 if(rewardStructure.blockHeight == INT_MAX || blockHeight <= rewardStructure.blockHeight) {
 			 return blockReward * rewardStructure.rewardPercentage / 100;
 		 }
 	 }
+	}
 	 return 0;
 }
 
