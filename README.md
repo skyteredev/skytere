@@ -1,4 +1,4 @@
-Skytere Core Latest v0.29.33.14
+Skytere Core Latest v0.30.00.11
 ===========================
 
 |CI|master|develop|
@@ -19,7 +19,7 @@ Development Process
 -------------------
 
 The `master` branch is meant to be stable. Development is done in separate branches.
-[Tags](https://github.com/skytcode/skytere/tags) are created to indicate new official,
+[Tags](https://github.com/skyteredev/skytere/tags) are created to indicate new official,
 stable release versions of Skytere Core.
 
 The contribution workflow is described in [CONTRIBUTING.md](CONTRIBUTING.md).
