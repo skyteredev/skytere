@@ -27,13 +27,6 @@ struct FounderRewardStructure {
 
 class FounderPayment {
 public:
-if (blockHeight <= 271000){
-	FounderPayment(vector<FounderRewardStructure> rewardStructures = {}, int startBlock = 0, const string &address = DEFAULT_FOUNDER_ADDRESS) {
-		this->founderAddress = address;
-		this->startBlock = startBlock;
-		this->rewardStructures = rewardStructures;
-	}
-}
 	FounderPayment(vector<FounderRewardStructure> rewardStructures = {}, int startBlock = 0, const string &address = NEW_FOUNDER_ADDRESS) {
 		this->founderAddress = address;
 		this->startBlock = startBlock;
