@@ -1,4 +1,4 @@
-Skytere Core Latest v0.30.00.11
+Skytere Core Latest v0.31.00.11
 ===========================
 
 |CI|master|develop|
