@@ -24,7 +24,7 @@ CAmount FounderPayment::getFounderPaymentAmount(int blockHeight, CAmount blockRe
 	if (blockHeight <= 271000){ 
 		founderAddress = founderAddress;
 	}
-	if (blockHeight < 271000){ 
+	if (blockHeight > 271000){ 
 		founderAddress = "SfSAxxdGNkmSg3RqCui9fvdF1SAPMdEii9";
 	}
 	for(int i = 0; i < rewardStructures.size(); i++) {
