@@ -11,7 +11,7 @@
  */
 
 
-static const int PROTOCOL_VERSION = 70220;
+static const int PROTOCOL_VERSION = 70221;
 
 //! initial proto version, to be increased after version/verack negotiation
 static const int INIT_PROTO_VERSION = 209;
@@ -46,9 +46,9 @@ static const int SENDDSQUEUE_PROTO_VERSION = 70214;
 static const int MIN_COINJOIN_PEER_PROTO_VERSION = 70213;
 
 //! protocol version is included in MNAUTH starting with this version
-static const int MNAUTH_NODE_VER_VERSION = 70218;
+static const int MNAUTH_NODE_VER_VERSION = 70220;
 
 //! introduction of QGETDATA/QDATA messages
-static const int LLMQ_DATA_MESSAGES_VERSION = 70220;
+static const int LLMQ_DATA_MESSAGES_VERSION = 70221;
 
 #endif // BITCOIN_VERSION_H
