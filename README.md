@@ -1,5 +1,27 @@
 Skytere Core Latest v0.31.00.11
 ===========================
+Skytere wallet repository
+
+Coin Specs
+• PoW Algorithm: GhostRider (gr)
+• Sketere Coin has max 21.000.000.000 supply
+• Block Time: 60 Seconds
+• Ports: 13321 / 17086 (rpc)
+• Explorer https://explorer.skytere.pro/
+• Website https://skytere.pro/
+
+Reward distribution:
+• 30% Miner Reward
+• 60% smartnode
+• 10% Foundation Fund
+
+Smartnode Collateral
+From block 271120 to 289999 :  2100000 SKYT
+From block 290000 to  489999 : 2500000 SKYT
+From block 490000 to  689999 : 3000000 SKYT
+From block 690000 to  989999 : 4000000 SKYT
+From the block 990000 : 5000000 SKYT
+
 
 |CI|master|develop|
 |-|-|-|
