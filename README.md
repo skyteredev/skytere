@@ -8,9 +8,9 @@ Coin Specs
 
 • Sketere Coin has max 21.000.000.000 supply
 
-• Block Time: 60 Seconds
+• Block Time: 120 Seconds
 
-• Ports: 13321 / 17086 (rpc)
+• Ports: 13321 (p2p) / 17086 (rpc)
 
 • Explorer https://explorer.skytere.pro/
 
