@@ -28,8 +28,6 @@ Reward distribution:
 
 Smartnode Collateral
 
-From block 271120 to 289999 :  2100000 SKYT
-
 From block 290000 to  489999 : 2500000 SKYT
 
 From block 490000 to  689999 : 3000000 SKYT
