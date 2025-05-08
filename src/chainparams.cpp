@@ -1,7 +1,7 @@
 // Copyright (c) 2010 Satoshi Nakamoto
 // Copyright (c) 2009-2014 The Bitcoin Core developers
 // Copyright (c) 2014-2020 The Dash Core developers
-// Copyright (c) 2020-2024 The Skytere developers
+// Copyright (c) 2020-2025 The Skytere developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -604,11 +604,32 @@ public:
         assert(consensus.hashGenesisBlock == uint256S("0xc3ccdb87bf6a4f07e53bcbb2ae0f2ccf232911e6f63bdce2c3584e84fcd58811"));
         assert(genesis.hashMerkleRoot == uint256S("0xda50c368d70abd121416951ac75c4aec78a99a8aa716460187f3d6e780332f38"));
 
-        vSeeds.emplace_back("nodem.skytere.com");
-        vSeeds.emplace_back("140.99.254.187");
         vSeeds.emplace_back("explorer.skytere.pro");
-        vSeeds.emplace_back("46.17.100.101");
-
+        vSeeds.emplace_back("104.28.229.14");
+	vSeeds.emplace_back("124.223.23.52");
+	vSeeds.emplace_back("125.236.242.221");
+	vSeeds.emplace_back("129.146.20.199");
+	vSeeds.emplace_back("134.41.67.106");
+	vSeeds.emplace_back("212.56.41.103");
+	vSeeds.emplace_back("145.239.2.7");
+	vSeeds.emplace_back("154.53.34.72");
+	vSeeds.emplace_back("167.86.110.168");
+	vSeeds.emplace_back("178.18.244.223");
+	vSeeds.emplace_back("188.196.54.55");
+	vSeeds.emplace_back("188.247.144.37");
+	vSeeds.emplace_back("188.26.121.208");
+	vSeeds.emplace_back("193.77.150.186");
+	vSeeds.emplace_back("207.244.243.35");
+	vSeeds.emplace_back("31.42.10.229");
+	vSeeds.emplace_back("38.242.236.173");
+	vSeeds.emplace_back("82.67.138.194");
+	vSeeds.emplace_back("84.40.159.205");
+	vSeeds.emplace_back("86.106.130.95");
+	vSeeds.emplace_back("88.15.142.50");
+	vSeeds.emplace_back("92.221.70.47");
+	vSeeds.emplace_back("92.221.70.47");
+	vSeeds.emplace_back("92.221.70.47");
+	vSeeds.emplace_back("94.181.45.46");
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,63);
         // Skytere script addresses start with '7'
