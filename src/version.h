@@ -1,5 +1,6 @@
 // Copyright (c) 2012-2014 The Bitcoin Core developers
 // Copyright (c) 2014-2021 The Dash Core developers
+// Copyright (c) 2023-2025 The Skytere developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -11,19 +12,19 @@
  */
 
 
-static const int PROTOCOL_VERSION = 70221;
+static const int PROTOCOL_VERSION = 70222;
 
 //! initial proto version, to be increased after version/verack negotiation
 static const int INIT_PROTO_VERSION = 209;
 
 //! disconnect from peers older than this proto version
-static const int OLD_MIN_PEER_PROTO_VERSION = 70213;
+static const int OLD_MIN_PEER_PROTO_VERSION = 70221;
 
-static const int MIN_PEER_PROTO_VERSION = 70220;
+static const int MIN_PEER_PROTO_VERSION = 70221;
 
 //! minimum proto version of masternode to accept in DKGs
-static const int OLD_MIN_SMARTNODE_PROTO_VERSION = 70218;
-static const int MIN_SMARTNODE_PROTO_VERSION = 70220;
+static const int OLD_MIN_SMARTNODE_PROTO_VERSION = 70221;
+static const int MIN_SMARTNODE_PROTO_VERSION = 70221;
 
 //! minimum proto version for governance sync and messages
 static const int MIN_GOVERNANCE_PEER_PROTO_VERSION = 70213;
@@ -46,7 +47,7 @@ static const int SENDDSQUEUE_PROTO_VERSION = 70214;
 static const int MIN_COINJOIN_PEER_PROTO_VERSION = 70213;
 
 //! protocol version is included in MNAUTH starting with this version
-static const int MNAUTH_NODE_VER_VERSION = 70220;
+static const int MNAUTH_NODE_VER_VERSION = 70221;
 
 //! introduction of QGETDATA/QDATA messages
 static const int LLMQ_DATA_MESSAGES_VERSION = 70221;
